@@ -1,0 +1,10 @@
+numberOfDivs=16*16;
+function createDiv(){
+count=0;
+if(count<numberOfDivs)
+{
+	$('<div></div>').attr(''+count).append('body');
+count++;		
+}
+
+};

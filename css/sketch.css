@@ -1,0 +1,37 @@
+#container{
+	background-color: blue;
+	height: 960px;
+	width: 960px;
+}
+.unit {
+    background-color: red;
+    height: 58px;
+    width: 58px;
+    margin: 1px;
+    display: inline-block;
+    float: left
+}
+@keyframes enter{
+    0%   {background-color: green;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: purple;}
+}
+
+.enter{
+	
+	animation-name: enter;
+    animation-duration: 2s;
+}
+
+
+@keyframes hover {
+    0%   {background-color: black;}
+    
+    100% {background-color: white;}
+}
+.hover{
+	animation-name: hover;
+    animation-duration: 1s;
+
+}
