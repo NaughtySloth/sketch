@@ -1,2 +1,0 @@
-Javascript&JQuery project
-# sketch
